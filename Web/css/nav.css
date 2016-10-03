@@ -58,19 +58,8 @@
 
 #header {
     min-width: 900px;
-    margin-right: 10px;
     background: #3f3e49;
-	border-right: solid 1px #3f3e49;
     height: 111px;
-    -moz-border-radius-bottomleft: 3px;
-    -moz-border-radius-bottomright: 3px;
-	-webkit-border-bottom-left-radius: 3px;
-	-webkit-border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-	-moz-box-shadow: 2px 2px 3px 2px #aaa;
-	-webkit-box-shadow: 2px 2px 3px 2px #aaa;
-	box-shadow: 2px 2px 3px 2px #aaa;
 }
 
 #header-top {

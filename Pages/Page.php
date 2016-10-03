@@ -172,7 +172,8 @@ abstract class Page implements IPage
 
 		$scriptUrl = Configuration::Instance()->GetScriptUrl();
 		$page = str_ireplace($scriptUrl, '', $referer);
-		return ltrim($page, '/');
+		$page = $scriptUrl . '/' . ltrim($page, '/');
+		return $page;
 	}
 
 	public function DisplayWelcome()

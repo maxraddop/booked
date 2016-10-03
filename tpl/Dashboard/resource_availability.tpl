@@ -21,7 +21,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
 	<div class="dashboardHeader">
 		<a href="javascript:void(0);" title="{translate key='ShowHide'}">{translate key="ResourceAvailability"}</a>
 	</div>
-	<div class="dashboardContents">
+	<div class="dashboardContents collapsed">
 		<div class="header">{translate key=Available}</div>
 		{foreach from=$Available item=i}
 			<div class="availabilityItem">

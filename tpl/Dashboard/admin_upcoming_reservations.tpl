@@ -43,7 +43,7 @@ along with Booked Scheduler.  If not, see <http://www.gnu.org/licenses/>.
 	<div class="dashboardHeader">
 		<a href="javascript:void(0);" title="{translate key='ShowHide'}">{translate key="AllUpcomingReservations"}</a> ({$Total})
 	</div>
-	<div class="dashboardContents">
+	<div class="dashboardContents collapsed">
 		{assign var=colspan value="5"}
 		{if $Total > 0}
 		<table>

@@ -32,7 +32,7 @@
 	width: 98%;
 	padding: 3px;
 	margin: 2px 0 5px 0;
-	border: 1px solid #e5e5e5;
+	border: 1px solid #808080;
 	background: #fbfbfb;
 	color: #777;
 }
@@ -77,11 +77,9 @@
 .reservationDeleteButtons {
 	float: left;
 }
-
 .reservationSubmitButtons {
 	float: right;
 }
-
 #reservationParticipation {
 	float: right;
 	width: 45%;
@@ -121,7 +119,7 @@
 }
 
 #dialogSave div {
-	font-size: 16pt;
+	font-size: 14px;
 	text-align: center;
 }
 
@@ -173,6 +171,7 @@ ul.jqtree-tree .group-resource .jqtree-title {
 
 .buttonsTop {
 	margin-bottom: 10px;
+        min-height: 2em;
 }
 
 label.reservationDate {
@@ -185,7 +184,9 @@ label.reservationDate {
 	margin: 15px 0;
 	font-size:smaller;
 }
-
+#reservationCreated #btnSaveSuccessful {
+    margin-top: 15px;
+}
 #allowParticipation {
 	margin-top:5px;
 }
